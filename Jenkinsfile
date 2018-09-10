@@ -4,7 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn -f myapp/pom.xml clean package'
+                echo "PATH = ${PATH}"
+		echo "M2_HOME = ${M2_HOME}"
+		sh 'mvn -version'
             }
         }
     }
