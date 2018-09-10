@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "PATH = ${PATH}"
 		echo "M2_HOME = ${M2_HOME}"
-		sh 'mvn -version'
+		sh 'mvn clean package'
             }
         }
     }
