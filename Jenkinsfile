@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "PATH = ${PATH}"
 		echo "M2_HOME = ${M2_HOME}"
-		sh 'mvn clean package'
+		sh 'mvn -f path/to/D:/Good/Good/myapp/pom.xml clean package'
             }
         }
     }
