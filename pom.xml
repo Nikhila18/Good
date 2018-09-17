@@ -21,7 +21,7 @@
 <snapshotRepository>
   <id>snapshots</id>
   <url>http://localhost:8081/nexus-2.14.8-01/content/repositories/snapshots</url>
-  </snapshotRepositon>
+  </snapshotRepository>
   </distributionManagement>
 
   
