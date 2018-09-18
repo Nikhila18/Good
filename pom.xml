@@ -7,9 +7,13 @@
   <version>1.0</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
-  
-  
-    <properties>
+	  
+	  
+  <scm>
+	    <connection>scm:git:https://github.com/Nikhila18/good.git</connection>
+    	<developerConnection>scm:git:https://github.com/Nikhila18/good.git</developerConnection>
+</scm>
+<properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
