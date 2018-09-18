@@ -4,7 +4,7 @@
   <groupId>org.sonatype.mavenbook</groupId>
   <artifactId>my-app</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>22.0</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
 	  
